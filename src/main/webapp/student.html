@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Form</title>
+<link rel="stylesheet" href="./cssfile/Student.css">
+</head>
+<body>
+
+<h1>Welcome to Student Form</h1>
+
+<div class="form-wrapper">
+  <form action="studentsignup" method="post" enctype="multipart/form-data">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name">
+
+    <label for="std">Standard:</label>
+    <select id="std" name="std">
+      <option value="">Select standard</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+    </select>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email">
+
+    <label for="pno">Phone Number:</label>
+    <input type="tel" id="pno" name="pno" placeholder="Enter your phone number" pattern="[0-9]{10}" maxlength="10">
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password">
+
+    <label for="pic">Upload your photo:</label>
+    <input type="file" id="pic" name="pic" required>
+
+    <div class="btn-wrapper">
+      <button type="submit">Save</button>
+      <button type="reset">Cancel</button>
+    </div>
+
+    <a href="login.html" class="home-link">Home</a>
+  </form>
+</div>
+
+</body>
+</html>

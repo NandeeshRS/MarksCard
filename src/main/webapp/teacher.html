@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Teacher Signup Form</title>
+	<link rel="stylesheet" type="text/css" href="./cssfile/Teacher.css">
+</head>
+<body>
+	<h1>Welcome to Teacher Signup Form</h1>
+	<div class="form-container">
+		<form action="teachersignup1" method="post">
+			<label for="name">Name:</label>
+			<input type="text" name="name" id="name" placeholder="Enter your name" required>
+			<label for="subject">Subject:</label>
+			<input type="text" name="subject" id="subject" placeholder="Enter the subject name" required>
+			<label for="email">Email:</label>
+			<input type="email" name="email" id="email" placeholder="Enter your email" required>
+			<label for="pno">Phone Number:</label>
+			<input type="tel" name="pno" id="pno" placeholder="Enter your phone number" pattern="[0-9]{10}" maxlength="10" required>
+			<label for="psw">Password:</label>
+			<input type="password" name="psw" id="psw" placeholder="Enter a password" minlength="6" required>
+			<div class="button-container">
+				<button type="submit">Save</button>
+				<button type="reset">Reset</button>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+body{
+	background-color: blue;
+	background-image: inherit;
+}
+
+
+.container {
+  margin: 50px auto;
+  text-align: center;
+ 
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #3e8e41; /* Dark green */
+}
+
+.logout-button {
+  background-color: #f44336; /* Red */
+}
+
+.logout-button:hover {
+  background-color: red; /* Dark red */
+}
